@@ -1,0 +1,115 @@
+body {
+  background-color : #EBEBEB;
+  font-family : 'Open Sans', sans-serif;
+  color : #7d7d7d;
+  font-size : 300;
+  line-height : 1.6em;
+}
+
+h1, h2, h3{
+  text-align: center;
+}
+
+h1 {
+  color: #DD5555;
+  font-size: 22px;
+}
+
+h2 {
+  color: #777777;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h3 {
+  color: #777777;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+  text-align: justify;
+}
+
+a {
+  color: #777777;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+a:hover{
+  color: #DD5555;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius : 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  padding : 20px;
+  margin : 10px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.profile > img {
+  width:150px;
+}
+
+.affiche {
+  margin-right: 10px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.red-btn {
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.red-btn:hover {
+  color:white;
+}
